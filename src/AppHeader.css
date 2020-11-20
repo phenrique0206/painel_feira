@@ -1,0 +1,91 @@
+header {
+  width: 100%;
+  background-color: #00510a;
+}
+
+header .center-column {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 40%;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 24px;
+}
+
+header .center-column-2 {
+  width: 100%;
+  max-width: 800px;
+  margin-left: 30%;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 24px;
+}
+
+header > div {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+}
+
+header nav {
+  height: 60px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background-color: #ffcc2a;
+  font-size: 20px;
+  text-align: center;
+}
+
+header nav ol {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ol .titles{
+  text-decoration: none;
+}
+
+@media (min-width: 600px) {
+  header nav ol {
+    display: block;
+  }
+  header nav li {
+    margin-right: 30px;
+  }
+}
+
+header nav li {
+  display: inline;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+header nav li:hover {
+  background-color: #02a515;
+  transition: 0.6s;
+}
+
+header nav a {
+  color: inherit;
+}
+
+header .text-header {
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+
+header .img-header {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
